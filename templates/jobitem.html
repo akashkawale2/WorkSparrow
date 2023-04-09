@@ -5,9 +5,11 @@
       <div>
         <b>Location: </b> {{jobs['location']}}
       </div>
+      {% if 'salary' in job %}
       <div>
         <b>Salary: </b> {{jobs['salary']}}
       </div>
+      {% endif %}
       <div>
         <b>Company: </b> {{jobs['company']}}
       </div>
